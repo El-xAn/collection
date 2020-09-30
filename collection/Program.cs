@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace day_12
 {
@@ -30,6 +31,7 @@ namespace day_12
         }
         public override void InputData()
         {
+            Console.WriteLine( $"Студент {LastName} {Name} учиться в {Course}ом курсе." );
         }
     }
     class Aspirant : Person
@@ -43,6 +45,7 @@ namespace day_12
         }
         public override void InputData()
         {
+            Console.WriteLine($"Аспирант {LastName} {Name} учиться в {Course}ом курсе. Номер диссертации : {Diss}");
         }
     }
 
@@ -113,7 +116,7 @@ namespace day_12
 
             ArrayList students = new ArrayList();
             ArrayList g_students = new ArrayList();
-
+            LinkedList<Student> ls = new LinkedList<Student>();
             bool b = false;
             do
             {
@@ -127,15 +130,14 @@ namespace day_12
                         do
                         {
                             Console.WriteLine("Кого хотите зарегистрировать:" +
-                                "\n1.Студент " +
-                                "\n2.Аспирант ");
+                                            "\n1.Студент " +
+                                            "\n2.Аспирант ");
 
                             int m = Check.CheckInt();
                             if (m == 1)
                             {
                                 Student st = new Student();
-                                students.AddRange(new string[] { $"{st.LastName} {st.Name} учиться в {st.Course}ом курсе." });
-
+                                students.AddRange(new string[] { $"Студент {st.LastName} {st.Name} учиться в {st.Course}ом курсе." } );
                                 b1 = true;
                                 break;
                             }
@@ -151,7 +153,6 @@ namespace day_12
 
                         } while (b1 == false);
                         break;
-
                     case 2:
                         foreach (object stud in students)
                         {
@@ -165,11 +166,17 @@ namespace day_12
                     case 3:
                         int n = Check.CheckInt();
                         if (n <= students.Count) { students.RemoveAt(n - 1); }
+                        else if (n <= 0) { Console.WriteLine("Nepravilniy vvod"); }
                         else { Console.WriteLine("Нет столько студентов."); }
                         break;
                     case 4:
                         Console.WriteLine("Программа завершена.");
                         b = true;
+                        break;
+                    case 5:
+                        int l = Check.CheckInt();
+                        LinkedListNode<Student> st1 = (Student)ls.AddLast();
+                        
                         break;
                 }
             } while (b == false);
