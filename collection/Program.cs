@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 
 namespace day_12
 {
@@ -116,7 +115,7 @@ namespace day_12
 
             ArrayList students = new ArrayList();
             ArrayList g_students = new ArrayList();
-            LinkedList<Student> ls = new LinkedList<Student>();
+            
             bool b = false;
             do
             {
@@ -173,12 +172,9 @@ namespace day_12
                         Console.WriteLine("Программа завершена.");
                         b = true;
                         break;
-                    case 5:
-                        int l = Check.CheckInt();
-                        LinkedListNode<Student> st1 = (Student)ls.AddLast();
-                        
+                   
+                        }
                         break;
-                }
             } while (b == false);
         }
     }

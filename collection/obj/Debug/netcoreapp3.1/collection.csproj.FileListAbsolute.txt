@@ -9,3 +9,16 @@ C:\Users\User\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collec
 C:\Users\User\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.pdb
 C:\Users\User\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.dll
 C:\Users\User\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.pdb
+C:\Users\Me\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.exe
+C:\Users\Me\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.deps.json
+C:\Users\Me\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.runtimeconfig.json
+C:\Users\Me\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.runtimeconfig.dev.json
+C:\Users\Me\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.dll
+C:\Users\Me\Desktop\works\collection\collection\bin\Debug\netcoreapp3.1\collection.pdb
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.csprojAssemblyReference.cache
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.AssemblyInfoInputs.cache
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.AssemblyInfo.cs
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.csproj.CoreCompileInputs.cache
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.dll
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.pdb
+C:\Users\Me\Desktop\works\collection\collection\obj\Debug\netcoreapp3.1\collection.genruntimeconfig.cache
